@@ -1,0 +1,32 @@
+{
+    "name": "googlemybusiness/google-my-business-api",
+    "type": "library",
+    "description": "The Google My Business API provides an interface for managing business location information on Google.",
+    "keywords": ["google-api", "google", "api", "my-business", "mybusiness", "api-mybusiness", "google-api-my-business", "google-api-mybusiness"],
+    "autoload": {
+        "psr-4": {
+            "GoogleMyBusiness\\GoogleMyBusinessApi\\": "src/"
+        }
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Dhirendra",
+            "email": "dhirendra.bahadur@gmail.com"
+        }
+    ],
+    "support": {
+    "docs": "https://developers.google.com/my-business/content/support"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "google/apiclient": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5" // For unit testing
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+
